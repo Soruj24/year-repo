@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 992px;
+    margin: 0 auto;
+}
+/* header stert */
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4f2f1;
+    
+}
+.bennarImg{
+    width: 450px;
+    
+}
+.bennarText{
+    text-align: right;
+    margin-top: 50px;
+    margin-right: 10px;
+    
+}
+.hrederText{
+    margin-bottom: 7px;
+    font-weight: bolder;
+}
+.para{
+    margin-bottom: 10px;
+}
+.btn{
+    background-color:#ffb300 ;
+    width: 100px;
+    height: 50px;
+    border: none;
+    transition: all .5s;
+}
+.btn:hover{
+    box-shadow: 3px 3px 6px black;
+    transform: scale(1.1);
+}
+/* header end */
+
+/* maim start */
+
+/* My failures start */
+.mainSection{
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.mainImg{
+    height: 400px;
+    
+}
+.mainArticle{
+    margin-top: 90px;
+}
+
+
+ul{
+    list-style-position: inside;
+}
+ul li{
+    list-style: none;
+}
+li::before{
+    content: '\f00c';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: bolder;
+    display: inline-block;
+    margin: 10px 5px;
+    color: #00ff1e;
+    font-size: 20px;
+
+}
+/* My failures end */
+/* Card start */
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.cards1{
+    margin: 5px;
+    background-color: #ffb300;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+    transition: all .5s;
+}
+.cards1:hover{
+    box-shadow: 3px 3px 6px rgb(138, 138, 138) ;
+    transform: scale(1.1);
+}
+.cards2{
+    margin: 5px;
+    background-color: #00ff1e;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+    transition: all .5s;
+}
+.cards2:hover{
+    box-shadow: 3px 3px 6px rgb(138, 138, 138) ;
+    transform: scale(1.1);
+}
+.cards3{
+    margin: 5px;
+    background-color: #2b00ff;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+    transition: all .5s;
+}
+.cards3:hover{
+    box-shadow: 3px 3px 6px rgb(138, 138, 138) ;
+    transform: scale(1.1);
+}
+.cards4{
+    margin: 5px;
+    background-color: #7b1d6d;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+    transition: all .5s;
+}
+.cards4:hover{
+    box-shadow: 3px 3px 6px rgb(138, 138, 138) ;
+    transform: scale(1.1);
+    
+}
+/* Card end */
+/* my plans start */
+.plans{
+    display: flex;
+    justify-content: space-evenly;
+}
+.myPlans{
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* my plans end */
+/* Awlays keep a positive start */
+.positive{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    padding: 50px;
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1)),url("./new-year-new-me/images/watch.png");
+    
+}
+/* Awlays keep a positive end */
+/* maim end */
+/* footer start */
+footer{
+    display: flex;
+    justify-content: space-between;
+   
+     background-color: rgb(0, 0, 0);
+     margin-bottom: 50px;
+}
+.future{
+    width: 500px;
+    height: 300px;
+     color: #f4f2f1;
+    padding: 30px;
+    
+}
+.subscribe{
+    width: 400px;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    
+}
+input{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.subscribe h3{
+    margin-bottom: 6px;
+}
+.subscribeBtn{
+    width: 100px;
+    height: 50px;
+    background-color: #f4f2f1;
+    border-radius: 6px;
+    border: none;
+}
+
+/* footer end */
